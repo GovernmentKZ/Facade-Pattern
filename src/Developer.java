@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class Developer {
+public class Developer {
+    public void doJobBeforeDeadline(BugTracker bugTracker){
+        if(bugTracker.isActiveSprint()){
+            System.out.println("Developer is solving problems...");
+        }else {
+            System.out.println("Developer is not solving problems...");
+        }
+    }
 }

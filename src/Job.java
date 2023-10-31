@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Job {
+public class Job {
+    public void doJob(){
+        System.out.println("Job in progressing...");
+    }
 }
